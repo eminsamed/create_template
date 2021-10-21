@@ -1,0 +1,233 @@
+main {
+  width: 1000px;
+  height: 800px;
+  background-color: rgb(77, 177, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.top-left {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+}
+.top-middle {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+}
+.top-right {
+  width: 100px;
+  height: 300px;
+  background-color: rgb(77, 177, 243);
+}
+.left-one {
+  width: 200px;
+  height: 15px;
+  background-color: rgb(77, 177, 243);
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.left-two {
+  width: 200px;
+  height: 8px;
+  background-color: rgb(77, 177, 243);
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.left-three {
+  width: 80px;
+  height: 50px;
+  background-color: rgb(77, 177, 243);
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.play {
+  background-color: rgb(77, 177, 243);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 80px 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playtriangle {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid white;
+  transform: rotate(90deg);
+}
+.line-one {
+  width: 120px;
+  height: 20px;
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+}
+.middle {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-top: -40px;
+}
+.middle-left {
+  width: 150px;
+  height: 300px;
+}
+.middle-middle {
+  width: 450px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.middle-right {
+  width: 250px;
+  height: 300px;
+}
+.iphone {
+  width: 120px;
+  height: 260px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.phone-top {
+  width: 70px;
+  height: 5px;
+  background-color: rgb(77, 177, 243);
+  border-radius: 10px;
+  margin: auto;
+}
+.phone-content {
+  width: 100px;
+  height: 200px;
+  background-color: rgb(77, 177, 243);
+  border-radius: 10px;
+  margin: auto;
+}
+.phone-bottom {
+  background-color: rgb(77, 177, 243);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+label {
+  display: block;
+  width: 60px;
+  height: 40px;
+  background-color: rgb(223, 203, 203);
+  border-radius: 40px;
+  position: relative;
+}
+label input {
+  display: none;
+}
+label .check-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+label input:checked + .check-button {
+  left: 65px;
+  background-color: rgb(77, 177, 243);
+}
+#checkbox {
+  display: flex;
+}
+.circle {
+  background-color: rgb(77, 177, 243);
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+.together {
+  display: flex;
+  align-items: flex-end;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid rgb(77, 177, 243);
+  display: inline;
+}
+.triangle-bigger {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 80px solid rgb(77, 177, 243);
+  display: inline;
+}
+.threepoints {
+  display: flex;
+  margin-top: 70px;
+}
+p {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(77, 177, 243);
+}
+.bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.bottom-left {
+  width: 600px;
+  height: 50px;
+  background-color: white;
+}
+.bottom-right {
+  width: 250px;
+  height: 50px;
+  background-color: rgb(77, 177, 243);
+}
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+  padding: 5px 10px;
+  color: white;
+}
+.rate-left {
+  width: 450px;
+  height: 40px;
+  background-color: rgb(77, 177, 243);
+  margin: 5px;
+}
+
+.circle-triangel {
+}
+.middle-left {
+  width: 220px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
